@@ -5,6 +5,16 @@
 This is a website for a marketing agency that follows accessibility standards
 and is optimized for search engines.
 
+## Visuals
+
+This is the website layout:
+
+![Horiseon informational website](./assets/images/site-screenshot.png)
+
+## Link
+
+[nanea808.github.io/first-challenge/](nanea808.github.io/first-challenge/)
+
 ## Installation
 
 N/A
@@ -19,4 +29,4 @@ N/A
 
 ## License
 
-Please refete to the LICENSE in the repo.
+Please refer to the LICENSE in the repo.
