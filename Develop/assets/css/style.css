@@ -22,10 +22,11 @@ header {
     color: #ffffff;
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
 }
 
@@ -37,12 +38,10 @@ header h1 {
 header div {
     padding-top: 15px;
     margin-right: 20px;
-    /* outdated floats! */
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    text-align: right;
 }
-
 
 /* for future use? */
 /* header div ul {
@@ -67,6 +66,12 @@ a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Selector used to align elements using flexbox layout */
+.align {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Content container selectors */
@@ -133,19 +138,29 @@ a {
     font-size: 36px;
 }
 
+/* For floating content images around text */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /* Benefits container selectors */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    /* outdated floats! */
-    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* Benefit lead selectors */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -162,6 +177,7 @@ a {
     max-width: 150px;
 }
 
+/* Benefir brand selectors */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -178,6 +194,7 @@ a {
     max-width: 150px;
 }
 
+/* Benefit cost selectors */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -192,17 +209,6 @@ a {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* outdated floats! */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .footer {
