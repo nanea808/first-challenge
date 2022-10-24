@@ -13,7 +13,7 @@ This is the website layout:
 
 ## Link
 
-[nanea808.github.io/first-challenge/](https://github.com/nanea808/first-challenge)
+[nanea808.github.io/first-challenge/](https://nanea808.github.io/first-challenge/)
 
 ## Installation
 
